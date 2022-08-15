@@ -38,7 +38,7 @@ const Cart = () => {
     var url = "https://tinypesa.com/api/v1/express/initialize";
 
     fetch(url, {
-        body: "amount=1&,msisdn=0723925531&account_no=aztec",
+        body: "amount=1&msisdn=0723925531&account_no=aztec",
         headers: {
             Apikey: "BF1k7x5FmQg", // apikey gotten after signing
             "Content-Type": "application/x-www-form-urlencoded",
@@ -116,7 +116,7 @@ const Cart = () => {
               <h3>Ksh {totalPrice}</h3> 
             </div>
             <div className="btn-container">
-              <button type="button" className="btnmp" onClick={mPesa}>
+              <button type="button" className="btnmp" onClick={mPesa()}>
                 Lipa Na Mpesa
               </button>
               {/* <button type="button" className="btn" onClick={handleCheckout}>
