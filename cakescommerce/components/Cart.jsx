@@ -116,7 +116,7 @@ const Cart = () => {
               <h3>Ksh {totalPrice}</h3> 
             </div>
             <div className="btn-container">
-              <button type="button" className="btnmp" onClick={mPesa()}>
+              <button type="button" className="btnmp" onClick={mPesa}>
                 Lipa Na Mpesa
               </button>
               {/* <button type="button" className="btn" onClick={handleCheckout}>
