@@ -38,7 +38,7 @@ const Cart = () => {
     var url = "https://tinypesa.com/api/v1/express/initialize";
 
     fetch(url, {
-        body: "amount=1&msisdn=0723925531&account_no=aztec",
+        body: "amount=1&msisdn=0713724551&account_no=aztec",
         headers: {
             Apikey: "BF1k7x5FmQg", // apikey gotten after signing
             "Content-Type": "application/x-www-form-urlencoded",
